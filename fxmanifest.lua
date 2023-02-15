@@ -6,8 +6,8 @@ description 'Sudo script to execute commands as other players'
 version '1.0.0'
 repo 'GttMone/sudo'
 
-client_script 'client.js'
+client_script 'client.lua'
 server_scripts {
-    'config.js',
-    'server.js'
+    'config.lua',
+    'server.lua'
 }
